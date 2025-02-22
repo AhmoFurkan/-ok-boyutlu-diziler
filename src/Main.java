@@ -12,9 +12,8 @@ public class Main {
         System.out.println(" Dizinin Elemanlarını giriniz :");
 
         for (int i=1; i<=a; i++, ındıs++){
-            System.out.print(i + ". Elemanı");
-            int eleman =input.nextInt();
-            list[ındıs]=eleman;
+            System.out.print(i + ". Elemanı : ");
+            list[ındıs] = input.nextInt();
         }
         Arrays.sort(list);
         System.out.println(Arrays.toString(list));
